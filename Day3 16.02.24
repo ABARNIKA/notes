@@ -1,0 +1,14 @@
+___IO ->volatile
+GPIO Typedef* GPIOA_BASE
+one structure for different address 
+dummy the register above the AHB1ENR should be used 
+RCC_Typedef*-> Using structure we change all the valuses to address 
+delay->used to blink
+To find file
+  File->Dreivers->CMIS->Device ->ST->STM32f4XX->Include ->STM32f4XXX.h->double click
+Structure
+   typedef struct
+   {
+   }GPIO_Typedef;
+   GPIO_Typedef varname;
+   ((GPIO_Typedef *)GPIO_BASE)
